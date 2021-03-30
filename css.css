@@ -189,7 +189,7 @@ body{
                         
                         ul{
                             position: fixed;
-                            width: 20%;
+                            width: 200px;
                             height: 100vh;
                             background:#2c3e50 ;
                             top: 0px;
