@@ -1,0 +1,336 @@
+body{
+
+    
+}
+
+.mecs{
+
+    font-size: 50px;
+    color:brown;
+    font-family: serif;
+}
+
+.approved{
+
+    font-size: 25px;
+
+}
+
+.eamcet{
+
+    font-size: 25px;
+
+}
+
+.BE{
+
+    font-size: 25px;
+
+}
+
+
+
+
+
+                                    
+                     nav{
+                        background: #0082e6;
+                        height: 50px;
+                        width: 100%;
+                        color: white;
+                        
+                    }
+                    
+                    
+                    
+                    
+                    
+                    
+                    nav ul{
+                        float: left;
+                        text-decoration: none;
+                        list-style: none;
+                        margin: 0px 0px 0px 0px;
+                        color: white;
+                    
+                    }
+                    
+                    nav ul li{
+                        display: inline-block;
+                        line-height: 50px;
+                        margin: 0px 11px;
+                        color: white;
+                    }
+                    nav ul li a{
+                        color: white;
+                        font-size: 20px;
+                        text-transform: uppercase;
+                        padding:6px 13px ;
+                        border-radius: 3px;
+                    
+                    }
+                    
+                    nav ul li a:hover{
+                        color: rgb(226, 32, 106);
+                        text-decoration: none;
+                    
+                    }
+                    
+                   a.active,a:hover{
+                        background-color: lightgreen ;
+                        /* color: red; */
+                        text-decoration: none;
+                        transition: .5s;
+                    }
+                    .checkbtn{
+                        font-size: 30px;
+                        color: white;
+                        float: right;
+                        line-height: 45px;
+                        margin: 0px 40px 0px 0px;
+                        cursor: pointer;
+                        display: none;
+                    }
+
+
+
+                    #check{
+                        display: none;
+                    }
+                    
+                    @media (max-width:952px){
+                       
+                        nav ul li a{
+                            font-size: 20px;
+                        }
+                    }
+                    
+                    @media (max-width:1540px){
+
+                       
+
+                        .checkbtn{
+                            display: block;
+                    
+                        }
+                    
+                        
+                        ul{
+                            position: fixed;
+                            width: 20%;
+                            height: 100vh;
+                            background:#2c3e50 ;
+                            top: 0px;
+                            left:-100%;
+                            text-align: center;
+                            transition: all .5s;
+                            overflow: scroll;
+                        }
+                        nav ul li{
+                            display: block;
+                            margin: 50px 0;
+                            line-height: 20px;
+                        }
+                        nav ul li a{
+                            font-size: 20px;
+                        }
+                    
+                         a:hover,a.active{
+                            background: lightgreen;
+                            color: #0082e6;
+                        }
+                    
+                        #check:checked~ul{
+                            left: 0;
+                        }
+                        a:hover:checked~ ul{
+                            left: 0;
+                        }
+                    }
+                    
+
+
+
+
+
+                    .cse{
+                        font-size: 60px;
+                        margin-top: 10%;
+                        font-weight: bolder;
+                    }
+                    
+                    .description{
+                        background-color: gainsboro;
+                        /* width: auto; */
+                        font-size: 29px;
+                        margin: 5% 2% 0% 2%;
+                        padding: 2% 2% 2% 2%;
+                    
+                    }
+                    
+                    .tab{
+                        font-size: 30px;
+                        width: 70%;
+                        height: auto;
+                        text-align: center;
+                        margin: 7% 15% 0% 15%;
+                    
+                    
+                    }
+                    
+                    thead{
+                        padding: 10px 10px 10px 100px ;
+                    }
+                    tbody{
+                    
+                    }
+                    tbody:hover{
+                        background-color: gainsboro;
+                        /* color: honeydew; */
+                    
+                    }
+                    th{
+                        text-align: center;
+                        font-weight: bold;
+                        background-color: silver    ;
+                        /* padding: 100px 10px 10px 10px ; */
+                    }
+                    
+                    tr{
+                        padding: 100px 100px;
+                        /* padding: 100px 10px 10px 10px ; */
+                    
+                    
+                    }
+                    
+                    .td{
+                        text-align: center;
+                        padding: 10px 10px 10px 10px ;
+                        font-weight: normal;
+                    
+                    }
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    
+
+@media (max-width:1000px){
+
+    .mecs{
+        font-size: 40px;
+    }
+    
+    .approved{
+        font-size: 20px;
+    }
+    
+    .eamcet{
+        font-size: 20px;
+    }
+    
+    .BE{
+        font-size: 20px;
+    }
+    
+
+    .cse{
+        font-size: 40px;
+        margin-top: 5%;
+        font-weight: bolder;
+    }
+
+
+    .description{
+        background-color: gainsboro;
+        /* width: auto; */
+        font-size: 20px;
+        margin: 3% 2% 0% 2%;
+    
+}
+
+
+.tab{
+    font-size: 22px;
+    width: 70%;
+    height: auto;
+    text-align: center;
+    margin: 7% 15% 0% 15%;
+
+
+}
+
+
+    
+    }
+    
+    
+    
+    
+    @media (max-width:450px){
+    
+    .mecs{
+        font-size: 30px;
+    }
+    
+    .approved{
+        font-size: 15px;
+    }
+    
+    .eamcet{
+        font-size: 15px;
+    }
+    
+    .BE{
+        font-size: 15px;
+    }
+    
+
+    
+    .cse{
+        font-size: 23px;
+        margin-top: 5%;
+        font-weight: bolder;
+    }
+
+
+    .description{
+        background-color: gainsboro;
+        /* width: auto; */
+        font-size: 17px;
+        margin: 3% 2% 0% 2%;
+    
+}
+
+
+.tab{
+    font-size: 15px;
+    width: 90%;
+    height: auto;
+    text-align: center;
+    margin: 7% 5% 0% 5%;
+
+
+}
+    
+    }
+    
