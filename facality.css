@@ -355,12 +355,12 @@ thead tr{
 
                     
 table{
-    /* width: 50%; */
+    width: 96%;
     font-size: 15px;
     text-align: center;
     margin-top:5% ;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 table,th,td{
     border: solid black 2px;
